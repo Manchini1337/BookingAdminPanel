@@ -1,0 +1,105 @@
+.newHotel {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    flex: 6;
+}
+
+.top, .bottom {
+    width: 75%;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.title {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.right {
+    flex: 2;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.selectRooms {
+    width: 60%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.formGroup {
+    width: 60%;
+}
+
+.formLabel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formIcon {
+    cursor: pointer;
+}
+
+.formInput {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.formSelect {
+    border: 2px solid #003580;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
+
+.formFile {
+    width: 20%;
+    align-self: center;
+}
+
+.formButton {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #003580;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px auto 0;
+  }

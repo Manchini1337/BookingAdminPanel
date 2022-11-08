@@ -1,0 +1,84 @@
+.userPage {
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    flex: 6;
+}
+
+.userCard {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cardItem {
+    display: flex;
+    gap: 40px;
+    margin: 20px 200px;
+}
+
+.cardItemImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.detailsTitle {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.detailItem {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.detailItemKey {
+    font-weight: bold;
+    color: gray;
+    margin-right: 5px;
+}
+
+.detailItemValue {
+    font-weight: 300;
+}
+
+.button {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #003580;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    max-width: 1200px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 10px;
+}

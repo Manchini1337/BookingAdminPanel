@@ -1,0 +1,32 @@
+.tableCell {
+    text-align: center;
+}
+
+.image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.cellWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.paid {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.151);
+}
+
+.notPaid {
+    color: goldenrod;
+    background-color: rgba(189, 189, 3, 0.103);
+}

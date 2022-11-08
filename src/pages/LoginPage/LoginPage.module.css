@@ -1,0 +1,108 @@
+.container {
+    height: 100vh;
+    font-size: 16px;
+}
+
+.form {
+	width: 400px;
+	padding: 30px;
+	border-radius: 10px;
+    background-color: #eee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.form__group {
+	margin-bottom: 10px;
+}
+.form__group label {
+	display: inline-block;
+	margin-bottom: 8px;
+}
+.input__group {
+	width: 100%;
+	position: relative;
+}
+.input__group input, .select {
+	padding: 12px 40px 12px 20px;
+	outline: none;
+	border-radius: 6px;
+	border: 1px solid #B7B7B7;
+	width: 100%;
+	transition: all .3s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+/* Validation */
+.input__group input:focus,
+.input__group input:not(:placeholder-shown) {
+	border-color: #007bff;
+	background: #F4F2FF;
+}
+.input__group input:focus + i,
+.input__group input:not(:placeholder-shown) + i {
+	color: #007bff;
+}
+.input__group input:focus:valid {
+	box-shadow: 0 0 0 4px #219404;
+}
+.input__group input:valid:not(:placeholder-shown) {
+	border-color: #23AE00;
+}
+.input__group input:valid:not(:placeholder-shown) + i {
+	color: #166d01;
+}
+.input__group input:invalid:not(:placeholder-shown) {
+	border-color: #FE2727;
+}
+.input__group input:invalid:not(:placeholder-shown) + i {
+	color: #FE2727;
+}
+.input__group input:focus:invalid {
+	box-shadow: 0 0 0 4px #a30303;
+}
+.input__group input:focus,
+.input__group input:focus:placeholder-shown {
+	box-shadow: 0 0 0 4px #007bff;
+}
+/* Validation */
+
+.input__group i {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 20px;
+	color: #9B9B9B;
+	pointer-events: none;
+	transition: all .3s ease;
+}
+.form__group .help__text {
+	font-size: 13px;
+	color: #fff;
+}
+
+
+.button {
+    width: 100%;
+    border: none;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.status {
+	text-align: center;
+	margin-top: 20px;
+}

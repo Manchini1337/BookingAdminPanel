@@ -1,0 +1,49 @@
+
+.table {
+    height: 500px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 10px auto 40px;
+}
+
+.searchInputContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.searchInputGroup {
+    position: relative;
+}
+
+.searchInput {
+    padding: 10px 20px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #003580;
+    border-radius: 5px;
+}
+
+.searchInputContainer i {
+    position: absolute;
+    font-size: 24px;
+    right: 0;
+    top: 0;
+    transform: translate(-50%, 60%);
+    color: lightgray;
+}
+
+.cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.changeButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #003580;
+    border: 1px solid rgba(0,53,128, 0.596);
+    cursor: pointer;  
+    outline: none;
+}
